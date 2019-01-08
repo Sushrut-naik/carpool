@@ -122,7 +122,7 @@ function onChanged(text) {
     if (numbers.indexOf(text[i]) > -1) {
       newText = newText + text[i];
     } else {
-      alert("Invalid mobile number");
+      alert("Invalid  number");
     }
   }
   this.setState({ mobileNumber: newText });
